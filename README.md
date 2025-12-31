@@ -36,7 +36,6 @@ The combat system is a simplified, D&D-inspired ruleset focused on stat-driven r
 ---
 
 ### Stats System
-![Stats System](images/stats.png)
 
 The stats system acts as the shared data model for all gameplay systems in the vertical slice.
 
@@ -68,7 +67,6 @@ The equipment interface is presented alongside a character preview and live stat
 ---
 
 ### Game Manager / Event Runner
-![Game Manager & Events](images/game_manager.png)
 
 A central **Game Manager** acts as a global orchestration layer for world state and slice progression.
 
@@ -129,7 +127,6 @@ Local inference was explored during development; however, running the model loca
 ---
 
 ## Purpose of the Vertical Slice
-![Project Purpose](images/purpose.png)
 
 This vertical slice was created to explore how AI-driven characters can exist as integrated components of a game system rather than as isolated chatbot interactions.
 
@@ -140,7 +137,6 @@ The project addresses the common disconnect between AI systems and the worlds th
 ---
 
 ## Known Limitations & Future Improvements
-![Future Improvements](images/future_work.png)
 
 - Improved AI response grounding through additional fine-tuning
 - Introduction of middleware for post-processing and canonical validation
@@ -152,7 +148,8 @@ These limitations represent understood trade-offs within the scope of a vertical
 ---
 
 ## What This Project Demonstrates
-![What This Demonstrates](images/summary.png)
+
+
 
 - Systems-driven game design in Unity using C#
 - Modular, loosely coupled gameplay architecture

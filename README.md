@@ -119,7 +119,7 @@ This README intentionally keeps AI integration high-level.
 For a deeper technical breakdown of the AI pipeline—including prompt assembly, memory retrieval, context ranking, and inference orchestration—see the dedicated **AI Interface repository**:
 
 > **AI Interface & Inference Documentation:**  
-> *(link to repo here)*
+> *([link to repo here](https://github.com/Astarfalconer/C4554NDR4_AI_Interface))*
 
 ### Local Inference Considerations
 Local inference was explored during development; however, running the model locally in a Windows-based environment introduced practical constraints around optimisation and quantisation. As a result, the project uses an external inference endpoint for stability and performance while maintaining an architecture that can support local deployment where appropriate tooling is available.
